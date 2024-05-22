@@ -13,9 +13,10 @@ In this game, bingo players REGISTER, receive a RANDOMLY generated 3x3 bingo car
 
 # TO DO
 ## Overall:
-[] set up AWS account with [X] zero spend budget, [x] alt contacts, [x] admin user, [x] login as admin, [x] create CLI keys
-[] add AWS account keys to local machine
-[] set up 2 GitHub repos (separate front end (fe) and back end (be)?)
+[x] set up AWS account with [X] zero spend budget, [x] alt contacts, [x] admin user, [x] login as admin, [x] create CLI keys
+[x] add AWS account keys to local machine
+[x] set up Back End GH repo
+[ ] set up Front End GH rep 
 
 ## Back End:
 [] API needs to return the provided JSON (they need to be able to access via CURL or API endpoint) HTTP...
@@ -30,16 +31,13 @@ player does the following in a web-based UI:
 - received a randomly generated bingo card (class Card(), created by API JSON data)
 - plays by clicking on / submitting the World Region where they spot a flamingo (AKA they can select and submit, or just click on a square on the card)
 
-## Resources:
-- https://www.youtube.com/watch?v=jTi18CNqObA - a video on building an AWS bingo game to get an idea of someone else's architecture
-
 ## Game Plan (Terraform in mind...)
 [x] 1, watch the above video in case it sheds light on any key roadblocks
-- 2, whiteboard, then pseudocode
-- 3, once full plan is drafted create AWS account and GH connection
-- 4, review docs update architecture/pseudocode/docstrings
-- 5+ Back end: User creation, Generate Card, Interact with Card, update UI on refresh 
-- 6+ Front End. On load, form pops for new player. Then submit form, then redirect to card, then interact with card, refresh for updated card
+[ ] 2, whiteboard, then pseudocode
+[ ] 3, once full plan is drafted create AWS account and GH connection
+[ ] 4, review docs update architecture/pseudocode/docstrings
+[ ] 5+ Back end: User creation, Generate Card, Interact with Card, update UI on refresh 
+[ ] 6+ Front End. On load, form pops for new player. Then submit form, then redirect to card, then interact with card, refresh for updated card
 
 
 ## Initial thoughts (5/21 3:04pm - Estimated time to complete 2-4 hours):
