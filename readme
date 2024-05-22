@@ -19,6 +19,7 @@ In this game, bingo players REGISTER, receive a RANDOMLY generated 3x3 bingo car
 [ ] set up Front End GH rep 
 
 ## Back End:
+[] DynamoDB table with item/row being a card, containing attributes: name, email, card(regions), completions
 [] API needs to return the provided JSON (they need to be able to access via CURL or API endpoint) HTTP...
 - POST create player and card and add to DDB
 - POST submit region of flamingo sighting
