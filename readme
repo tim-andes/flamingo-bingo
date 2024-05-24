@@ -8,7 +8,6 @@ In this game, bingo players REGISTER, receive a RANDOMLY generated 3x3 bingo car
 - AWS for backend: API, user, game state tracking(?)
 - Web for frontend: HTML, CSS, JS(? I don't think a live refresh is needed on card interaction)
 ## How?
-- I don't see myself completing this within 2-4 hours without AI assistance, etc. Will either work to completion (est 8-12 hrs) or stop at 4 hours of work.
 - Only need back end on AWS framework: DynamoDB <-> Lambda <-> API Gateway
 
 # TO DO
