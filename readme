@@ -23,7 +23,7 @@ In this game, bingo players REGISTER, receive a RANDOMLY generated 3x3 bingo car
 - POST create player and card and add to DDB
 - POST submit region of flamingo sighting
 - GET updated card to re-render on refresh
-[x] make sure API endpoint is easy access on interviewer side - invoke URL: https://uldkt0ywal.execute-api.us-east-1.amazonaws.com/default
+[x] make sure API endpoint is easy access on interviewer side
 
 ## Front end:
 player does the following in a web-based UI:
