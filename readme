@@ -27,9 +27,9 @@ In this game, bingo players REGISTER, receive a RANDOMLY generated 3x3 bingo car
 
 ## Front end:
 player does the following in a web-based UI:
-- On page load... register form via input() (register, then POST to DB player and card, then redirect to card)
-- received a randomly generated bingo card (class Card(), created by API JSON data)
-- plays by clicking on / submitting the World Region where they spot a flamingo (AKA they can select and submit, or just click on a square on the card)
+- On page load... register form via form fill (register, then POST to DB player and card, then redirect to card)
+- Receive a randomly generated bingo card (class Card(), created by API JSON data)
+- Plays by clicking on / submitting the World Region where they spot a flamingo (AKA they can select and submit, or just click on a square on the card)
 
 ## Game Plan (Terraform in mind...)
 [x] 1, watch the above video in case it sheds light on any key roadblocks
