@@ -38,17 +38,3 @@ player does the following in a web-based UI:
 [x] 4, review docs update architecture/pseudocode/docstrings
 [] 5+ Back end: User creation, Generate Card, Interact with Card, update UI on refresh 
 [] 6+ Front End. On load, form pops for new player. Then submit form, then redirect to card, then interact with card, refresh for updated card
-
-
-## Initial thoughts (5/21 3:04pm - Estimated time to complete 2-4 hours):
-I expect this project, if taken to completion of minimum specs, to take 8-12 hours. Many different ways to accomplish the same task. I could spend 4 hours
-planning and researching before even starting to code! I was asked during the interview if I knew how to use any coding copilots, I said yes. I am taking
-this information and deducing that I am permitted to use any AI coding assistants required. This should enable me to keep the time to completion around 4 hours.
-I am assuming that the goal is to get the job done, not write all of the code by hand.
-
-Question: Do I limit my efforts to 4 hours of elapsed time, or do I spend the time until I meet all specs?
-
-# Details
-- Admin Sign-In URL: https://891377128523.signin.aws.amazon.com/console
-- Admin User: ia-admin
-- AWS CLI Profile: ia-admin
